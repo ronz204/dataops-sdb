@@ -1,1 +1,0 @@
-ALTER TABLE "core"."expense_approvals" ADD CONSTRAINT "expense_approvals_request_level_key" UNIQUE("expense_request_id","level");
